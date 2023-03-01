@@ -1,13 +1,15 @@
-print('hello')
+print("hello")
 var = 1
 
 
-class My():
+class My:
     pass
 
-print('world')
+
+print("world")
 
 import time
+
 start_time = time.time()
 sum(range(100000))
-print('--- %s seconds ---' % (time.time() - start_time))
+print("--- %s seconds ---" % (time.time() - start_time))
